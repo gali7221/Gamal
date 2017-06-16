@@ -1,0 +1,157 @@
+@import url(whitespace-reset.css);
+
+/*
+Zocial
+*/
+
+.zocial-twitter:before, .zocial-github:before, .zocial-gmail:before, .zocial-linkedin:before {
+    font-family: 'zocial', sans-serif;
+    margin: 7px 10px 7px 0;
+}
+
+
+/* entypo */
+
+.entypo-plus:before, .entypo-home:before, .entypo-phone:before, .entypo-rocket:before, .entypo-star:before, .entypo-briefcase:before, .entypo-book:before, .entypo-trophy:before, .entypo-check:before, .entypo-hourglass:before, .entypo-calendar:before {
+    font-family: 'entypo', sans-serif;
+    margin: 7px 10px 7px 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: normal 300 1em 'Raleway', sans-serif;
+}
+
+h1 {
+    display: inline;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 29px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+body {
+    background-color: white;
+}
+
+h3, h4, h5 {
+    padding: 10px 10px 2px 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+img {
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.name {
+    font-size: 5em;
+    color: black;
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.role {
+    display: inline;
+    padding: 40px 10px;
+    font-size: 2em;
+    color: #00a815;
+}
+
+.black {
+    background-color: black;
+    height: 1px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+    margin: 20px 0;
+}
+
+.project {
+    padding: 10px 3%;
+    clear: both;
+}
+
+.school {
+    margin: 2px 0;
+    font-weight: bold;
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+.flexbox {
+    flex: 1;
+}
+
+.header {
+    text-align: center;
+}
+
+.education {
+    padding: 0 5%;
+}
+
+.date-text {
+    font-style: italic;
+    font-size: 13px;
+    color: #808080;
+    line-height: 16px;
+}
+
+.location-text {
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    line-height: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+    .flexbox {
+        display: block;
+    }
+
+    .name {
+        font-size: 4em;
+    }
+
+    .role {
+        display: block;
+        font-size: 1.5em;
+    }
+}
